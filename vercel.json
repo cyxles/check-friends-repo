@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/check-friends.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    { "src": "/check-friends", "dest": "/api/check-friends.js" }
+  ]
+}
